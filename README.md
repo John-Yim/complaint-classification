@@ -8,8 +8,8 @@ Hugging Face Spaces를 통해 민원 텍스트를 분류하고 정부 부처 정
 
 ---
 
-📁 주요 파일
-
+## 📁 주요 파일
+- **출처**: AIHub의 [민원 업무 자동화 인공지능 언어 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=619) 사용
 | 파일명 | 설명 |
 |--------|------|
 | `complaint_classification.ipynb` | 전체 실험 흐름 및 시각화 포함 |
@@ -19,7 +19,7 @@ Hugging Face Spaces를 통해 민원 텍스트를 분류하고 정부 부처 정
 
 ---
 
-🧪 실험 구성 요약
+## 🧪 실험 구성 요약
 
 - 텍스트 전처리 및 중복 제거 (text 기준, 최빈 category 유지)
 - TF-IDF + LightGBM → Baseline 모델 성능 확보
@@ -28,7 +28,7 @@ Hugging Face Spaces를 통해 민원 텍스트를 분류하고 정부 부처 정
 
 ---
 
-📊 최종 성능 요약 (KoBERT 기준)
+## 📊 최종 성능 요약 (KoBERT 기준)
 
 - Accuracy: **93.8%**
 - Macro F1-score: **92%**
@@ -37,7 +37,7 @@ Hugging Face Spaces를 통해 민원 텍스트를 분류하고 정부 부처 정
 
 ---
 
-🔗 데이터셋 정보
+## 🔗 데이터셋 정보
 
 - 수집/가공: 공공 민원 텍스트 (구체적 출처 비공개)
 - 클래스: 총 18종 (교통, 복지, 보건소, 자동차, 환경미화 등)
@@ -45,7 +45,7 @@ Hugging Face Spaces를 통해 민원 텍스트를 분류하고 정부 부처 정
 
 ---
 
-🚀 데모 체험
+## 🚀 데모 체험
 
 - Hugging Face Demo (실시간 민원 분류 + 부처 정보 제공)  
   👉 [민원 텍스트 분류 및 정부 부처 정보 추천 시스템](https://huggingface.co/spaces/JohnYim0213/project-note)
