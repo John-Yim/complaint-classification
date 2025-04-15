@@ -10,6 +10,7 @@ Hugging Face Spaces를 통해 민원 텍스트를 분류하고 정부 부처 정
 
 ## 📁 주요 파일
 - **출처**: AIHub의 [민원 업무 자동화 인공지능 언어 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=619) 사용
+  
 | 파일명 | 설명 |
 |--------|------|
 | `complaint_classification.ipynb` | 전체 실험 흐름 및 시각화 포함 |
